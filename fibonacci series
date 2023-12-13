@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int a , i , t1=0 , t2=1 , j;
+printf (" enter a number to print the series : ") ;
+
+scanf ("%d" , &a);
+
+for ( i=0 ; i<=a ; i++)
+{
+
+
+ printf("%d\n" , t1) ;
+  j= t1 + t2 ;
+  t1=t2;
+  t2=j ;
+
+}
+      
+    return 0;
+}
