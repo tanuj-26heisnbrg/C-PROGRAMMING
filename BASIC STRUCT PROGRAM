@@ -26,3 +26,28 @@ printf("the numbers of players in basketball are: %d \n" , basketball.plyrnum);
 
     return 0;
 }
+
+/* 
+======== Student Struct Program ========
+
+
+#include <stdio.h>
+
+struct student {
+    
+    int rollno ;
+    char name [50] ;
+    char branch [50] ;
+};
+
+int main() {
+    
+    struct student s1 = { 68, "Tanuj kumar yadav", "information technology" };
+
+printf (" the roll no. of the student is : %d \n " , s1.rollno) ;
+printf (" the name of the student is : %s \n" , s1.name) ;
+printf (" the branch of the student is : %s \n" , s1.branch) ;
+    return 0;
+} 
+
+*/
