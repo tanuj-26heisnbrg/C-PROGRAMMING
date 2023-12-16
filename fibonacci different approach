@@ -1,3 +1,6 @@
+// fibonacci sequences with starting value as three
+
+
 #include <stdio.h>
 int main() {
 
