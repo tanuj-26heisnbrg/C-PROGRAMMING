@@ -7,12 +7,13 @@ int main() {
     float num1, num2, num3, average;
 
     // Input three numbers
+//first number 
     printf("Enter the first number: ");
     scanf("%f", &num1);
-
+// second number 
     printf("Enter the second number: ");
     scanf("%f", &num2);
-
+//third number 
     printf("Enter the third number: ");
     scanf("%f", &num3);
 
