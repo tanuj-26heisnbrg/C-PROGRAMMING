@@ -1,3 +1,5 @@
+// program to find average 
+
 #include <stdio.h>
 
 int main() {
