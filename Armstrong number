@@ -4,6 +4,7 @@
 #include <math.h>
 
 // Function to calculate the number of digits in a given number
+
 int countDigits(int number) {
     int count = 0;
     while (number != 0) {
@@ -14,6 +15,7 @@ int countDigits(int number) {
 }
 
 // Function to check if a number is an Armstrong number
+
 int isArmstrong(int number) {
     int originalNumber, remainder, result = 0, n;
 
@@ -33,10 +35,12 @@ int main() {
     int num;
 
     // Input from the user
+
     printf("Enter a number: ");
     scanf("%d", &num);
 
     // Check and display whether the number is Armstrong or not
+
     if (isArmstrong(num)) {
         printf("%d is an Armstrong number.\n", num);
     } else {
