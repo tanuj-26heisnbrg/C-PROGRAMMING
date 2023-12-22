@@ -1,0 +1,18 @@
+// YASH KANET . PROBLEM
+#include <stdio.h>
+
+int main() {
+    float a , b , c  , s ;
+    
+    printf(" enter the three sides of the triangle : ");
+    
+    scanf("%f%f%f" , &a , &b ,&c ) ;
+    
+    s = (a+b+c)/2 ;
+    
+    printf (" the semi perimeter of the triangle is: %f \n " ,  s  ) ;
+    
+    printf (" the area of the triangle is ( square root of ) :%f \n" , s*(s-a)*(s-b)*(s-c));
+
+    return 0;
+}
