@@ -19,6 +19,7 @@ void printList(struct Node* head) {
 }
 
 // Function to insert a new node at the beginning of the linked list
+
 struct Node* insertAtBeginning(struct Node* head, int value) {
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     newNode->data = value;
@@ -28,14 +29,17 @@ struct Node* insertAtBeginning(struct Node* head, int value) {
 
 int main() {
     // Create an empty linked list
+
     struct Node* head = NULL;
 
     // Insert nodes at the beginning
+
     head = insertAtBeginning(head, 3);
     head = insertAtBeginning(head, 2);
     head = insertAtBeginning(head, 1);
 
     // Print the linked list
+
     printf("Linked List: ");
     printList(head);
 
