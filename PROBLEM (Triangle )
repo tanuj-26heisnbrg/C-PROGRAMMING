@@ -1,4 +1,9 @@
 // YASH KANET . PROBLEM
+/* the problem statement was to find area of the triangle when the length of 3 sides of the
+  triangle is the input from the user . */ 
+
+// used the HERON'S FORMULA 
+
 #include <stdio.h>
 
 int main() {
