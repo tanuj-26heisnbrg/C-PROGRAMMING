@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <math.h>
+
+double toRadians(double degree) {
+    return degree * (M_PI / 180.0);
+}
+
+double haversine_distance(double L1, double G1, double L2, double G2) {
+    // Convert degrees to radians
+    L1 = toRadians(L1);
+    G1 = toRadians(G1);
+    L2 = toRadians(L2);
+    G2 = toRadians(G2);
+
+    // Haversine formula
+    double dlat = L2 - L1;
+    double dlon = G2 - G1;
+
+    double a = sin(dlat / 2) * sin(dlat / 2) +
+               cos(L1) * cos(L2) * sin(dlon / 2) * sin(dlon / 2);
+
+    double c = 2 * atan2(sqrt(a), sqrt(1 - a));
+
+    // Earth radius in nautical miles
+    double R = 3963;
+
+    // Calculate distance
+    double distance = R * c;
+
+    return distance;
+}
+
+int main() {
+    double L1, G1, L2, G2;
+
+    printf("Enter latitude of first place in degrees: ");
+    scanf("%lf", &L1);
+    printf("Enter longitude of first place in degrees: ");
+    scanf("%lf", &G1);
+    printf("Enter latitude of second place in degrees: ");
+    scanf("%lf", &L2);
+    printf("Enter longitude of second place in degrees: ");
+    scanf("%lf", &G2);
+
+    double result = haversine_distance(L1, G1, L2, G2);
+    printf("The distance between the two places is approximately %.2f nautical miles.\n", result);
+
+    return 0;
+}
