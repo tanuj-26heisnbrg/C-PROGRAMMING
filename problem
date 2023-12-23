@@ -1,5 +1,5 @@
 // program to determine distance between two points on earth 
-//
+//taking inputs in form of latitude and degrees
 
 #include <stdio.h>
 #include <math.h>
