@@ -18,6 +18,7 @@ void initializeStack(struct Stack *stack) {
 }
 
 // Function to check if the stack is empty
+
 int isEmpty(struct Stack *stack) {
     return stack->top == -1;
 }
