@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define the maximum size of the stack
+// Define the maximum size  of the stack
+
 #define MAX_SIZE 100
 
 // Define the stack structure
