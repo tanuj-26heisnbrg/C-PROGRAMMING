@@ -5,6 +5,7 @@
 struct players {
     
     int plyrnum ;
+
 };
 
 
