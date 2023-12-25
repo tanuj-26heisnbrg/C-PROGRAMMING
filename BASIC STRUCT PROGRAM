@@ -51,3 +51,55 @@ printf (" the branch of the student is : %s \n" , s1.branch) ;
 } 
 
 */
+
+/* 
+   #include <stdio.h>
+#include <string.h>
+
+struct Player {
+    char name[50];
+    int age;
+    char role[20];
+    int matches_played;
+    int runs_scored;
+    int wickets_taken;
+};
+
+int main() {
+    struct Player player1, player2, player3;
+
+    // Input player 1 details
+    printf("Enter details for Player 1:\n");
+    printf("Name: ");
+    fgets(player1.name, 50, stdin);
+    player1.name[strcspn(player1.name, "\n")] = '\0'; // Remove trailing newline
+    printf("Age: ");
+    scanf("%d", &player1.age);
+    printf("Role: ");
+    fgets(player1.role, 20, stdin);
+    player1.role[strcspn(player1.role, "\n")] = '\0'; // Remove trailing newline
+    printf("Matches Played: ");
+    scanf("%d", &player1.matches_played);
+    printf("Runs Scored: ");
+    scanf("%d", &player1.runs_scored);
+    printf("Wickets Taken: ");
+    scanf("%d", &player1.wickets_taken);
+
+    // Repeat for player 2 and player 3 (or add more players as needed)
+
+    // Display player details
+    printf("\nPlayer Details:\n");
+    printf("Player 1:\n");
+    printf("Name: %s\n", player1.name);
+    printf("Age: %d\n", player1.age);
+    printf("Role: %s\n", player1.role);
+    printf("Matches Played: %d\n", player1.matches_played);
+    printf("Runs Scored: %d\n", player1.runs_scored);
+    printf("Wickets Taken: %d\n", player1.wickets_taken);
+
+    // Display details for other players
+
+    return 0;
+}
+
+*/
