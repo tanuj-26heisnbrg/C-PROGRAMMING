@@ -18,6 +18,9 @@ struct players kabbaddi ={ 07 };
 struct players volleyball= { 06 } ;
 struct players basketball = { 12 } ;
 
+
+
+
 printf("the numbers of players in football are : %d \n" , football.plyrnum) ;
 printf("the numbers of players in kabbaddi are : %d \n" , kabbaddi.plyrnum) ;
 printf("the numbers of players in volleyball are : %d \n" , volleyball.plyrnum);
