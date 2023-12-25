@@ -53,7 +53,10 @@ printf (" the branch of the student is : %s \n" , s1.branch) ;
 */
 
 /* 
-   #include <stdio.h>
+
+program to take player data in the struct
+
+#include <stdio.h>
 #include <string.h>
 
 struct Player {
