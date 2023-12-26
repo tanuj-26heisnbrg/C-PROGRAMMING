@@ -21,6 +21,7 @@ main()
         printf("Enter your choice of operations : ");
         scanf("%d", &ch);
         switch (ch)
+
         {
             case 1:
             enqueue();
