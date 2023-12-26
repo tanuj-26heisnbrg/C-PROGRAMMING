@@ -10,6 +10,7 @@ int Rear = - 1;
 int Front = - 1;
 main()
 {
+
     int ch;
     while (1)
     {
