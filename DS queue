@@ -66,9 +66,11 @@ void dequeue()
     }
     else
     {
+
         printf("Element deleted from the Queue: %d\n", inp_arr[Front]);
         Front = Front + 1;
-    }
+ 
+}
 } 
  
 void show()
