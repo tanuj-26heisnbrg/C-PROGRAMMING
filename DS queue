@@ -87,3 +87,4 @@ void show()
         printf("\n");
     }
 }
+// a simple program to implement queue data structure 
