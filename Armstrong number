@@ -29,6 +29,7 @@ int isArmstrong(int number) {
         remainder = originalNumber % 10;
         result += pow(remainder, n);
         originalNumber /= 10;
+
     }
 
     return (result == number);
