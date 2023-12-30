@@ -21,6 +21,7 @@ int isArmstrong(int number) {
 
     int originalNumber, remainder, result = 0, n;
 
+
     originalNumber = number;
     n = countDigits(number);
 
