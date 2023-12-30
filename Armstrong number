@@ -18,6 +18,7 @@ int countDigits(int number) {
 // Function to check if a number is an Armstrong number
 
 int isArmstrong(int number) {
+
     int originalNumber, remainder, result = 0, n;
 
     originalNumber = number;
