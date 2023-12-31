@@ -29,6 +29,7 @@ int main() {
         default:
             printf("You are not eligible to vote yet.\n");
             break;
+
     }
 
     return 0;
