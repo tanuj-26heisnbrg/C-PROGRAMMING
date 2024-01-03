@@ -2,8 +2,6 @@
 PLAYERS IN GAMES USING STRUCT
 
 #include <stdio.h>
-
-
 struct players {
     
     int plyrnum ;
