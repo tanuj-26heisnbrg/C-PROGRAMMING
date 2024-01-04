@@ -1,5 +1,5 @@
 // program to check whether user can vote & drive or not 
-
+// age is taken input from user 
 #include <stdio.h>
 
 int main() {
