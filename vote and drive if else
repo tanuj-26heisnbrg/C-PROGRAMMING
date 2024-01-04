@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main() {
+
     int age ;
     printf("enter your age : ");
     scanf("%d" , &age) ;
@@ -13,4 +14,5 @@ int main() {
       printf (" you are eligible to vote as well as drive.");
 
     return 0;
+
 }
