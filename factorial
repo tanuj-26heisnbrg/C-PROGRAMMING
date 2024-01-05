@@ -10,7 +10,6 @@ int main() {
   for (i=1; i<=a ; i++)
   {
       fact = fact*i;
-     
   }
   printf("  factorial for number is: %d " , fact);
     return 0;
