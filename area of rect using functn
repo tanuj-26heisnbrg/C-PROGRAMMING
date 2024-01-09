@@ -11,16 +11,14 @@ int arearect ( int length , int breadth )
 }
 
 int main() {
-    int l , b;
     
-  printf (" enter the length and breadth of the rectangle :") ;
-  
-     scanf ("  %d %d", &l ,&b);
-     
-       int area = arearect(l,b); //calling the function
-       
-    printf (" the area of the rectangle is : %d ", area);
-    
+int l , b;
+printf (" enter the length and breadth of the rectangle :") ;
+scanf ("  %d %d", &l ,&b);
 
-    return 0;
+int area = arearect(l,b); //calling the function
+
+printf (" the area of the rectangle is : %d ", area);
+
+return 0;
 }
