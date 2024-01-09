@@ -10,11 +10,13 @@ void reverseString(char str[]) {
 
     while (start < end) {
         // Swap characters at the start and end positions
+
         char temp = str[start];
         str[start] = str[end];
         str[end] = temp;
 
         // Move the start position forward and end position backward
+
         start++;
         end--;
     }
