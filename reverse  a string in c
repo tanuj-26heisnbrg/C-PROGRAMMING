@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+
+void reverseString(char str[]) {
+    int length = strlen(str);
+    int start = 0;
+    int end = length - 1;
+
+    while (start < end) {
+        // Swap characters at the start and end positions
+        char temp = str[start];
+        str[start] = str[end];
+        str[end] = temp;
+
+        // Move the start position forward and end position backward
+        start++;
+        end--;
+    }
+}
+
+int main() {
+    char inputString[100];
+
+    // Input a string
+    printf("Enter a string: ");
+    fgets(inputString, sizeof(inputString), stdin);
+
+    // Remove the newline character from inputString if present
+    if (inputString[strlen(inputString) - 1] == '\n') {
+        inputString[strlen(inputString) - 1] = '\0';
+    }
+
+    // Reverse the string
+    reverseString(inputString);
+
+    // Display the reversed string
+    printf("Reversed string: %s\n", inputString);
+
+    return 0;
+}
