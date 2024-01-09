@@ -4,7 +4,7 @@
 
 int arearect ( int length , int breadth )
 {
-    int area ;
+    int area ;                // function variable 
     area = length * breadth ;
     return area ;
     
@@ -17,7 +17,7 @@ int main() {
   
      scanf ("  %d %d", &l ,&b);
      
-       int area = arearect(l,b);
+       int area = arearect(l,b); //calling the function
        
     printf (" the area of the rectangle is : %d ", area);
     
