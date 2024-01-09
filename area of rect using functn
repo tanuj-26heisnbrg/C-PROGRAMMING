@@ -1,1 +1,27 @@
 
+#include <stdio.h>
+
+
+int arearect ( int length , int breadth )
+{
+    
+    int area ;
+    area = length * breadth ;
+    return area ;
+    
+}
+
+int main() {
+    int l , b;
+    
+  printf (" enter the length and breadth of the rectangle :") ;
+  
+     scanf ("  %d %d", &l ,&b);
+     
+       int area = arearect(l,b);
+       
+    printf (" the area of the rectangle is : %d ", area);
+    
+
+    return 0;
+}
