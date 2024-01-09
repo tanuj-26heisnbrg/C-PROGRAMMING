@@ -1,10 +1,9 @@
+// area of the rectangle using functions 
 
 #include <stdio.h>
 
-
 int arearect ( int length , int breadth )
 {
-    
     int area ;
     area = length * breadth ;
     return area ;
