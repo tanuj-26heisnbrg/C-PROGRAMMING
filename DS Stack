@@ -1,7 +1,7 @@
-// creating stack
+ // creating stack
 
-#include <stdio.h>
-#include <stdlib.h>
+     #include <stdio.h>
+     #include <stdlib.h>
 
 // Define the maximum size  of the stack
 
