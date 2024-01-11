@@ -64,22 +64,27 @@ int peek(struct Stack *stack) {
 
 int main() {
     // Create and initialize a stack
+
     struct Stack myStack;
     initializeStack(&myStack);
 
     // Push some elements onto the stack
+
     push(&myStack, 10);
     push(&myStack, 20);
     push(&myStack, 30);
 
     // Print the top element
+
     printf("Top element: %d\n", peek(&myStack));
 
     // Pop an element
+
     int poppedElement = pop(&myStack);
     printf("Popped element: %d\n", poppedElement);
 
     // Print the top element after popping
+
     printf("Top element after popping: %d\n", peek(&myStack));
 
     return 0;
