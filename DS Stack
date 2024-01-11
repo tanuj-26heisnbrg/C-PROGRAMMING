@@ -9,6 +9,7 @@
 #define MAX_SIZE 100
 
 // Define the stack structure
+
 struct Stack {
     int data[MAX_SIZE];
     int top;
